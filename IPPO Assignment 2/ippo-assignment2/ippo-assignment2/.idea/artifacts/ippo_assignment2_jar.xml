@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ippo-assignment2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ippo_assignment2_jar</output-path>
+    <root id="archive" name="ippo-assignment2.jar">
+      <element id="module-output" name="ippo-assignment2" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../libs/jackson-annotations-2.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../libs/jackson-core-2.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../libs/jackson-databind-2.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../libs/fastjson-1.2.34.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PATH_TO_FX$/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PATH_TO_FX$/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PATH_TO_FX$/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PATH_TO_FX$/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PATH_TO_FX$/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PATH_TO_FX$/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PATH_TO_FX$/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PATH_TO_FX$/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

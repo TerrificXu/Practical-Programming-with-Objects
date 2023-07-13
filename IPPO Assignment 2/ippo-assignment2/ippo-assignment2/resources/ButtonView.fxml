@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ippo.library.component.ButtonView">
+   <children>
+      <Label id="message" fx:id="captionLabel" layoutX="23.0" layoutY="27.0" text="" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="TOP" layoutX="458.0" layoutY="11.0" text="Basket" AnchorPane.leftAnchor="440.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutY="53.0" prefHeight="399.0" prefWidth="426.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="360.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <VBox fx:id="basketBox" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: A8A6A6;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="440.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0" />
+      <HBox fx:id="buttonBox" layoutY="403.0" prefHeight="47.0" prefWidth="546.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="100.0">
+         <children>
+            <Button fx:id="left" mnemonicParsing="false" onAction="#goLeft" text="left">
+               <HBox.margin>
+                  <Insets left="50.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="forward" mnemonicParsing="false" onAction="#goForward" text="forward">
+               <HBox.margin>
+                  <Insets left="80.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="right" mnemonicParsing="false" onAction="#goRight" text="right">
+               <HBox.margin>
+                  <Insets left="80.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children></HBox>
+      <Label fx:id="errorLabel" alignment="TOP_LEFT" layoutX="20.0" layoutY="153.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="60.0" textFill="#ff2a16" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="165.0" />
+      <VBox fx:id="roomBox" prefHeight="360.0" prefWidth="100.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="450.0" AnchorPane.topAnchor="40.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>

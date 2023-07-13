@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: com.ippo.MainViewer
+Class-Path: javafx-swt.jar javafx.web.jar javafx.base.jar javafx.fxml.ja
+ r javafx.media.jar javafx.swing.jar javafx.controls.jar javafx.graphics
+ .jar jackson-annotations-2.2.3.jar jackson-core-2.2.3.jar jackson-datab
+ ind-2.2.3.jar fastjson-1.2.34.jar
+
